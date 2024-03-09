@@ -35,7 +35,7 @@ ids = []
 async def _batch(event):
     s = False
     if f'{event.sender_id}' in batch:
-        return await event.reply("You've already started one batch, wait for it to complete you dumbfuck owner!")
+        return await event.reply("You've already started one batch, wait for it to complete Baby!")
     async with gagan.conversation(event.chat_id) as conv: 
         if not s:
             await conv.send_message(f"Send me the message link you want to start saving from, as a reply to this message.", buttons=Button.force_reply())
