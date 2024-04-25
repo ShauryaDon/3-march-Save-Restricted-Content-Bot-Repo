@@ -4,7 +4,7 @@ from telethon import events, Button
 from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
-START_PIC = "https://graph.org/file/da97ceca70e55983b4891.png"
+START_PIC = "https://telegra.ph/Om-Namah-Shiway-04-15"
 TEXT = "Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👉🏻Execute /batch for bulk process upto 10K files range."
 
 def is_set_button(data):
@@ -39,7 +39,7 @@ async def sett(event):
 @gagan.on(events.CallbackQuery(pattern=b"rem"))
 async def remt(event):  
     gagan = event.client            
-    await event.edit('Trying... to save Bamby ... Wait')
+    await event.edit('Trying... to save Baby ... Wait')
     try:
         os.remove(f'{event.sender_id}.jpg')
         await event.edit('Removed!')
@@ -52,7 +52,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Join Channel", url="https://telegram.dog/HarishSoni")]
     ]
 
     # Sending photo with caption and buttons
