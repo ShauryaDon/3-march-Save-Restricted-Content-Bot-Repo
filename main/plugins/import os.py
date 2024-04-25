@@ -4,7 +4,7 @@ from telethon import events, Button
 from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
-START_PIC = "https://telegra.ph/Om-Namah-Shiway-04-15"
+START_PIC = "https://telegra.ph/file/1605ca7c742b3f8d2997b.jpg"
 TEXT = "Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👉🏻Execute /batch for bulk process upto 10K files range."
 
 def is_set_button(data):
@@ -52,7 +52,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Join Channel", url="https://telegram.dog/HarishSoni")]
     ]
 
     # Sending photo with caption and buttons
@@ -64,7 +64,7 @@ async def start_command(event):
     )
 
 M = "/plan"
-PREMIUM_PIC = "https://telegra.ph/Om-Namah-Shiway-04-15"
+PREMIUM_PIC = "https://telegra.ph/file/1605ca7c742b3f8d2997b.jpg"
 PRE_TEXT = """🌟 Premium Plan Features 🌟\n\n
 💰 **Premium Price**: Starting from $1 or 70 INR accepted via **__AMAZON GIFT CARD__** (terms and conditions apply).\n
 📥 **Download Limit**: Users can download up to 10,000 files in a single batch command.\n
@@ -90,7 +90,7 @@ async def plan_command(event):
         buttons=buttons
     )
 T = "/terms"
-TERM_PIC = "https://telegra.ph/Om-Namah-Shiway-04-15"
+TERM_PIC = "https://telegra.ph/file/1605ca7c742b3f8d2997b.jpg"
 TERM_TEXT = """📜 **Terms and Conditions** 📜\n\n
 - We are not responsible for user deeds, and we do not promote copyrighted content. If any user engages in such activities, it is solely their responsibility.\n
 - Upon purchase, we do not guarantee the uptime, downtime, or the validity of the plan. Authorization and banning of users are at our discretion; we reserve the right to ban or authorize users at any time.\n
