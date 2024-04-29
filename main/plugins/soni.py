@@ -157,7 +157,7 @@ async def run_batch(userbot, client, sender, countdown, link):
             return -2
 
 C = "/cancel"
-START_PIC = "https://telegra.ph/Om-Namah-Shiway-04-15"
+START_PIC = "https://telegra.ph/file/1605ca7c742b3f8d2997b.jpg"
 TEXT = "👋 Hi, This is 'Paid Restricted Content Saver' bot Made with ❤️ by __**Shaurya**__."
 
 @gagan.on(events.NewMessage(pattern=f"^{C}"))
@@ -181,7 +181,7 @@ TEXTING = """
 ```
 Execute /batch command only when you 100% sure.
 Bcz /cancel event is removed to make bot work perfectly.
-Thanks - Team SPY
+Thanks - Shaurya
 
 ```
 """
