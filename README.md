@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>Save restricted Content Bot by <a Shaurya"> devgagan.in </a>
+  <b>Save restricted Content Bot by <a Shaurya">  </a>
 </h1> 
 
 Contact: [Telegram](https://t.me/HarishSoni)
