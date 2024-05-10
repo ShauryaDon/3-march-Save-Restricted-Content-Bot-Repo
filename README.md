@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> <a Shaurya"> </a>
   <b>Save restricted Content Bot by  Shaurya
 
 Contact: [Telegram](https://t.me/HarishSoni)
